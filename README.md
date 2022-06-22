@@ -20,8 +20,8 @@ Usage takes up to 3 command line options:
   
 Compile
 =====
-git clone 
-cd 
+git clone https://github.com/OA6DXV/rtl-mux.git
+cd rtl-mux
 apt install gcc make libevent-dev -y
 make
 cp rtlmux /usr/bin/
