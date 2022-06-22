@@ -1,7 +1,5 @@
-RTL TCP Client Multiplexer / Relay
+RTL TCP Client Multiplexer / Multi-client
 ==================================
-
-[![Build Status](https://git.vocti.ca/slepp/rtlmux/badges/master/build.svg)](https://git.vocti.ca/slepp/rtlmux/builds)
 
 This is a simple server to connec to an rtl_tcp server and allow multiple clients
 to attach to the same receiver. It relays the ID information to the clients,
