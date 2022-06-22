@@ -17,3 +17,12 @@ Usage takes up to 3 command line options:
 * `-p port` Server port to connect to
 * `-l port` Listening port for clients to connect to, HTTP status port will be
   equal to this plus one
+  
+Compile
+=====
+git clone 
+cd 
+apt install gcc make libevent-dev -y
+make
+cp rtlmux /usr/bin/
+
