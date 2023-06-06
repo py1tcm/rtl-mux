@@ -18,15 +18,15 @@ Usage takes up to 3 command line options:
 * `-l port` Listening port for clients to connect to, HTTP status port will be
   equal to this plus one
   
-Compile
+Compile (tested on debian 11)
 =====
-git clone https://github.com/OA6DXV/rtl-mux.git
+sudo apt install gcc make libevent-dev
+
+git clone https://github.com/py1tcm/rtl-mux.git
 
 cd rtl-mux
 
-apt install gcc make libevent-dev -y
-
 make
 
-cp rtlmux /usr/bin/
+sudo cp rtlmux /usr/bin/
 
