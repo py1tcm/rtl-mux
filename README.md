@@ -20,7 +20,7 @@ Usage takes up to 3 command line options:
   
 Compile (tested on debian 11)
 =====
-sudo apt install gcc make libevent-dev
+sudo apt install gcc make libevent-dev pkg-config
 
 git clone https://github.com/py1tcm/rtl-mux.git
 
